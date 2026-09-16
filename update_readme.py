@@ -105,16 +105,16 @@ def build_stats_block():
     commits = get_commit_count()
 
     lines = [
-        "OS: GitHub",
-        f"Uptime: {format_uptime(user['created_at'])}",
-        f"Languages: {top_languages(repos)}",
-        "-" * 32,
-        f"Repos: {user['public_repos']:<8}Stars: {stars}",
-        f"Followers: {user['followers']:<4}Following: {user['following']}",
-        f"Forks: {forks}",
+        f"{'OS:':<12}GitHub",
+        f"{'Uptime:':<12}{format_uptime(user['created_at'])}",
+        f"{'Languages:':<12}{top_languages(repos)}",
+        "-" * 38,
+        f"{'Repos:':<12}{user['public_repos']:<10}{'Stars:':<10}{stars}",
+        f"{'Followers:':<12}{user['followers']:<10}{'Following:':<10}{user['following']}",
+        f"{'Forks:':<12}{forks}",
     ]
     if commits is not None:
-        lines.append(f"Commits (last year): {commits}")
+        lines.append(f"{'Commits:':<12}{commits} (last year)")
 
     return "\n".join(lines)
 
