@@ -43,12 +43,13 @@
 <!--STATS:START-->
 ```text
 OS:         GitHub
-Uptime:     0 years, 0 months
-Languages:  loading...
+Uptime:     3 years, 9 months
+Languages:  Jupyter Notebook, TypeScript, HTML, Java
 --------------------------------------
-Repos:      -         Stars:    -
-Followers:  -         Following:-
-Forks:      -
+Repos:      10        Stars:    1
+Followers:  4         Following:5
+Forks:      1
+Commits:    117 (last year)
 ```
 <!--STATS:END-->
 
