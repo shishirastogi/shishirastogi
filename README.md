@@ -44,12 +44,12 @@
 ```text
 OS:         GitHub
 Uptime:     3 years, 9 months
-Languages:  Jupyter Notebook, TypeScript, HTML, Java
+Languages:  Jupyter Notebook, TypeScript, Python, HTML
 --------------------------------------
-Repos:      10        Stars:    1
+Repos:      11        Stars:    1
 Followers:  4         Following:5
 Forks:      1
-Commits:    117 (last year)
+Commits:    130 (last year)
 ```
 <!--STATS:END-->
 
